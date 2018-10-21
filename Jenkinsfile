@@ -9,4 +9,10 @@ pipeline {
       }
    }
 
+   post {
+      always {
+         archive
+      }
+   }
+
 }
